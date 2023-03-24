@@ -62,7 +62,7 @@
 }
 
 body {
-    background-image: url(/img/table.png);
+    background-image: url(img/table.png);
     background-repeat: no-repeat; 
     background-size: auto;
     overflow: hidden;
