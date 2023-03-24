@@ -5,6 +5,7 @@ body, html {
 
 .bg-cont {
     position: relative;
+    height: 100%;
 }
 
 header {
@@ -57,6 +58,10 @@ header {
 
 .img-cont {
     align-self: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 #f-slug-img {
@@ -74,6 +79,17 @@ header {
     position: absolute;
 }
 
+#pmp-w-img {
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+#tadpoles-r-img {
+    width: 60%;
+    align-self: center;
+    justify-self: center; 
+}
 @media screen and (max-width: 390px) {
     .wrap-btt {
         position: static;

@@ -15,11 +15,6 @@
     
 }
 
-body {
-    overflow: hidden;
-    margin: 0;
-}
-
 #slug-img {
     position: absolute;
     top: 272px;
@@ -70,6 +65,7 @@ body {
     background-image: url(/img/table.png);
     background-repeat: no-repeat; 
     background-size: auto;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1100px) {
