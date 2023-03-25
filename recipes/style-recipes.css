@@ -90,6 +90,10 @@ header {
     align-self: center;
     justify-self: center; 
 }
+
+.wrap-btt:hover #btt{   
+    color: white; 
+}
 @media screen and (max-width: 390px) {
     .wrap-btt {
         position: static;
